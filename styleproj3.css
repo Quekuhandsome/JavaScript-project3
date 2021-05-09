@@ -1,0 +1,102 @@
+body {
+  background-color: #fff6f6;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  font: size 16px;
+  font-weight: 700;
+}
+header {
+  padding: 20px 0 0 0;
+  background: white;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+.remove {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+#hero {
+  background-image: url(./img/elearn.png);
+  height: 350px;
+  background-size: cover;
+}
+#heading {
+  margin: 30px 0;
+}
+
+.submenu {
+  position: relative;
+}
+#sebmenu #shopping-cart {
+  display: none;
+}
+
+.submenu:hover #shopping-cart {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.hero-content {
+  margin: top 80px;
+  color: white;
+}
+.hero-content form {
+  position: relative;
+  margin-bottom: 0;
+}
+.hero-content form #search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  background-image: url();
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: none;
+}
+.main-bar {
+  padding: 20px 0;
+  background: #741d51;
+  background: -moz-liner-gradient(left, #741d51 0%, #e44e52 100%);
+  background: -webkit-liner-gradient(left, #741d51 0%, #e44e52 100%);
+  background: liner-gradient(to right #741d51 0%, #e44e52 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr= ' #741d51 ', endcolorstr ='#e44e52', GradientType=1);
+}
+
+.main-bar p {
+  margin: 0;
+  color: white;
+}
+.icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 60px;
+  background-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
