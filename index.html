@@ -13,13 +13,19 @@
     <header class="header" id="header">
       <div class="container">
         <div class="row">
-          <div class="four columns">
-            <img src="./img/udacity.png" alt="" />
+          <div class="four columns" id="logo-and-header">
+            <img src="./img/udacity.png" alt="" class="logo-size" />
+            <h2>Queku Group of Companies</h2>
           </div>
           <div class="two colunms u-pull-right">
             <ul>
               <li class="submenu">
-                <img src="./img/cart3.svg" id="img-cart" alt="" />
+                <img
+                  src="./img/cart3.svg"
+                  id="img-cart"
+                  alt=""
+                  class="cart-size"
+                />
                 <div id="shopping-cart">
                   <table id="cart-container" class="u-full-width">
                     <thead>
@@ -30,7 +36,11 @@
                         <th></th>
                       </tr>
                     </thead>
+                    <tbody></tbody>
                   </table>
+                  <a href="#" id="clear-cart" class="button u-full-width"
+                    >Clear Cart</a
+                  >
                 </div>
               </li>
             </ul>
@@ -44,7 +54,7 @@
         <div class="row">
           <div class="six columns">
             <div class="hero-content">
-              <h2>Learning Somthing today</h2>
+              <h2>Learn Something today</h2>
               <p>special offer, any course $15</p>
 
               <form action="#" id="search" class="form" method="POST">
@@ -52,17 +62,22 @@
                   type="text"
                   class="u-full-width"
                   placeholder="what do you want to learn"
-                  id="search"
+                  id="search-course"
                 />
 
-                <input type="submit" id="submit_search-course" />
+                <input
+                  type="submit"
+                  id="submit-search-course"
+                  class="submit-search-course"
+                />
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="mainBar">
+
+    <div class="main-bar">
       <div class="container">
         <div class="row">
           <div class="four columns icon icon1">
@@ -357,6 +372,19 @@
               <a href="" class="link">About Us</a>
               <a href="" class="link">Work with Us</a>
               <a href="" class="link">Blog</a>
+            </nav>
+          </div>
+          <div class="four columns">
+            <nav id="socIcon" class="socIcon">
+              <a href="" class="link"
+                ><i><img src="./img/twiter.png" alt="" /></i
+              ></a>
+              <a href="" class="link"
+                ><i><img src="./img/github.png" alt="" /></i
+              ></a>
+              <a href="" class="link"
+                ><i><img src="./img/linkIn.png" alt="" /></i
+              ></a>
             </nav>
           </div>
         </div>
